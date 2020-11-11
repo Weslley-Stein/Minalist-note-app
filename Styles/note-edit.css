@@ -1,0 +1,51 @@
+:root {
+  font-size: 110%;
+  letter-spacing: 0.2rem;
+  font-family: "Halant";
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+* {
+  outline: none;
+}
+
+@media (max-width: 700px) {
+  .main__noteblock--expanded {
+    width: 15rem;
+    height: 23rem;
+    margin: 10px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: #272727;
+  }
+
+  .main__noteblock__heading--editable {
+    width: 200px;
+    height: 30px;
+    margin: 20px 0px 0px 10px;
+    font-family: "Halant";
+    font-size: 2rem;
+    color: white;
+    background: none;
+    border: none;
+  }
+
+  .main__noteblock__heading--editable::placeholder {
+    font-size: 2rem;
+    font-family: "Halant";
+    color: white;
+  }
+  .main__noteblock__text--editable {
+    width: 250px;
+    height: 300px;
+    margin: 15px 5px 0px 10px;
+    font-size: 1rem;
+    font-family: "Nunito Sans";
+    color: rgba(1000, 1000, 1000, 0.6);
+    background: none;
+    border: none;
+  }
+}
