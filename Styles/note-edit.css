@@ -50,12 +50,16 @@
   width: 70vw;
   max-width: 780px;
   height: 50vh;
-  margin: 3vh 0.9vw;
+  margin: 1vw;
   font-size: 1rem;
   font-family: "Nunito Sans";
   color: rgba(1000, 1000, 1000, 0.6);
   background: none;
   border: none;
+}
+
+.main__noteblock--preview{
+  height: 15vh;
 }
 
 .save-button {
